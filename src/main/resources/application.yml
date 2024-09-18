@@ -1,0 +1,9 @@
+# spring:
+#   application:
+#     name: decision
+
+decision:
+  automatch:
+    value: 80
+  autonotmatch:
+    value: '50'
