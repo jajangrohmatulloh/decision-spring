@@ -2,4 +2,4 @@ decision:
   automatch:
     value: 80
   autonotmatch:
-    value: '50'
+    value: 50
