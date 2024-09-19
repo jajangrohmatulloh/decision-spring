@@ -3,13 +3,13 @@ package com.jajangrohmatulloh.decision.model;
 import java.util.List;
 
 public class WebResponse {
-    private List<Integer> scores;
+    private List<String> decisions;
 
-    // public List<Integer> getScores() {
-    //     return scores;
-    // }
+    public List<String> getDecisions() {
+        return decisions;
+    }
 
-    public void setScores(List<Integer> scores) {
-        this.scores = scores;
+    public void setDecisions(List<String> decisions) {
+        this.decisions = decisions;
     }
 }
